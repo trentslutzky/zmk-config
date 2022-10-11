@@ -11,11 +11,10 @@
     &kp GRAVE   &kp Q   &kp D   &kp R   &kp W   &kp B    &kp DEL     &kp PSCRN  &kp J      &kp F    &kp U      &kp P      &kp LBKT     &kp RBKT
     &kp ESC     &kp A   &kp S   &kp H   &kp T   &kp G    &kp LMETA   &none      &kp Y      &kp N    &kp E      &kp O      &kp I        &kp SEMI
     &none       &kp Z   &kp X   &kp M   &kp C   &kp V    &kp LSHIFT  &kp RET    &kp K      &kp L    &kp COMMA  &kp DOT    &kp FSLH     &kp APOS
-    &kp       &none   &none   &mo 2   &mo 1   &kp BSPC &kp LCTRL   &kp TAB    &kp SPACE  &mo 3    &mo 4      &kp BSLH   &kp MINUS    &kp EQUAL
+    &none       &none   &none   &mo 2   &mo 1   &kp BSPC &kp LCTRL   &kp TAB    &kp SPACE  &mo 3    &mo 4      &kp BSLH   &kp MINUS    &kp EQUAL
             >;
          };
 
-        // layers 1
         layer_arrows {
             bindings = <
     &trans    &trans    &trans        &trans     &trans        &trans    &trans    &trans    &trans    &kp HOME    &kp UP      &kp END     &trans    &trans
@@ -25,7 +24,6 @@
             >;
          };
 
-        // layers 2
         layer_num {
             bindings = <
     &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &kp N7     &kp N8    &kp N9    &trans    &trans    
@@ -35,7 +33,6 @@
             >;
          };
 
-        // layers 3
         layer_sym {
             bindings = <
     &trans    &trans     &trans    &trans     &trans     &trans     &trans     &trans    &trans     &trans     &trans    &trans    &trans    &trans    
@@ -45,13 +42,12 @@
             >;
          };
 
-        // layers 4
-        layer_media {
+        layer_controls {
             bindings = <
-    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none    &kp C_PREV    &kp C_PLAY_PAUSE    &kp C_NEXT    &kp C_VOLUME_UP    
-    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none    &kp C_VOLUME_DOWN    
-    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none    &kp C_MUTE 
-    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none    
+    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none    &kp C_PREV    &kp C_PLAY_PAUSE    &kp C_NEXT   &kp C_VOLUME_UP    
+    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none         &none               &none        &kp C_VOLUME_DOWN    
+    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none         &none               &none        &kp C_MUTE 
+    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none         &kp BT_CLR          &kp BT_PRV   &kp BT_NXT
             >;
          };
      };
