@@ -1,0 +1,16 @@
+if SHIELD_ESPER_ERGOX_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "esper ergoX"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_ESPER_ERGOX_LEFT || SHIELD_ESPER_ERGOX_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

@@ -1,0 +1,12 @@
+file_format: "1"
+id: esper_ergox
+name: esper ergoX
+type: shield
+url: https://github.com/trentslutzky/zmk-config
+requires: [pro_micro]
+exposes: []
+features:
+  - keys
+siblings:
+  - esper_ergox_left
+  - esper_ergox_right
