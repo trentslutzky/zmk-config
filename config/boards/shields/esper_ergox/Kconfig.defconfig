@@ -1,33 +1,16 @@
-if SHIELD_ESPER_ERGOX_CENTRAL || SHIELD_ESPER_ERGOX_LEFT || SHIELD_ESPER_ERGOX_RIGHT
+if SHIELD_ESPER_ERGOX_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "Esper ErgoX"
+  default "Esper ErgoX"
 
-config ZMK_BLE
-	default y
-
-config ZMK_USB
-	default y
+config ZMK_SPLIT_ROLE_CENTRAL
+  default y
 
 endif
 
 if SHIELD_ESPER_ERGOX_LEFT || SHIELD_ESPER_ERGOX_RIGHT
 
 config ZMK_SPLIT
-	default y
-
-config ZMK_SPLIT_ROLE_CENTRAL
-	default n
-
-endif
-
-
-if SHIELD_ESPER_ERGOX_CENTRAL
-
-config ZMK_SPLIT
-	default y
-
-config ZMK_SPLIT_ROLE_CENTRAL
 	default y
 
 endif
