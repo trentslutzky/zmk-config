@@ -1,5 +1,3 @@
-// esper_ergox_left.overlay
-
 #include "esper_ergox.dtsi"
 
 &default_transform {

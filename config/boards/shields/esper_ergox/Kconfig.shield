@@ -2,8 +2,8 @@ config SHIELD_ESPER_ERGOX_CENTRAL
 	def_bool $(shields_list_contains,esper_ergox_central)
 
 config SHIELD_ESPER_ERGOX_LEFT
-	def_bool $(shields_list_contains,esper_ergox_norm_left)
+	def_bool $(shields_list_contains,esper_ergox_left)
 
 config SHIELD_ESPER_ERGOX_RIGHT
-	def_bool $(shields_list_contains,esper_ergox_norm_right)
+	def_bool $(shields_list_contains,esper_ergox_right)
 
