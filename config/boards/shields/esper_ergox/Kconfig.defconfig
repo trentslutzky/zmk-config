@@ -11,7 +11,7 @@ config ZMK_KEYBOARD_NAME
 
 endif
 
-if ESPER_ERGOX_NORM_LEFT || ESPER_ERGOX_NORM_RIGHT
+if ESPER_ERGOX_NORM_LEFT || ESPER_ERGOX_NORM_RIGHT || ESPER_ERGOX_DONGLE
 
 config ZMK_SPLIT
 	default y
@@ -21,9 +21,6 @@ endif
 
 
 if ESPER_ERGOX_DONGLE
-
-config ZMK_SPLIT
-	default y
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
