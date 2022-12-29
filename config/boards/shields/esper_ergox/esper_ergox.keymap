@@ -11,7 +11,7 @@
     &kp GRAVE   &kp Q   &kp D   &kp R   &kp W   &kp B    &kp DEL     &kp PSCRN  &kp J      &kp F    &kp U      &kp P      &none        &none
     &kp ESC     &kp A   &kp S   &kp H   &kp T   &kp G    &kp LMETA   &none      &kp Y      &kp N    &kp E      &kp O      &kp I        &kp SEMI
     &none       &kp Z   &kp X   &kp M   &kp C   &kp V    &kp LSHIFT  &kp RET    &kp K      &kp L    &kp COMMA  &kp DOT    &kp FSLH     &kp APOS
-    &none       &none   &none   &mo 2   &mo 1   &kp BSPC &kp LCTRL   &kp TAB    &kp SPACE  &mo 3    &mo 4      &kp BSLH   &kp MINUS    &kp EQUAL
+    &none       &none   &none   &mo 2   &mo 1   &kp BSPC &kp LCTRL   &kp TAB    &kp SPACE  &mo 3    &mo 4      &none      &none        &none
             >;
          };
 
@@ -26,28 +26,28 @@
 
         layer_num {
             bindings = <
-    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &kp N7     &kp N8    &kp N9    &trans    &trans    
-    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &kp N4     &kp N5    &kp N6    &trans    &trans    
-    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &kp N1     &kp N2    &kp N3    &trans    &trans    
-    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &kp N0     &kp N0    &kp DOT   &trans    &trans    
+    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &kp EQUAL   &kp N7     &kp N8    &kp N9    &trans    &trans    
+    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &kp PLUS    &kp N4     &kp N5    &kp N6    &trans    &trans    
+    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &kp MINUS   &kp N1     &kp N2    &kp N3    &kp DOT   &trans    
+    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans      &kp N0     &kp N0    &trans    &trans    &trans    
             >;
          };
 
         layer_sym {
             bindings = <
-    &trans    &trans     &trans    &trans     &trans     &trans     &trans     &trans    &trans     &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans    &trans    &trans    
-    &trans    &kp EXCL   &kp AT    &kp HASH   &kp DLLR   &kp PRCNT  &trans     &trans    &kp CARET  &kp LPAR          &kp RPAR  &kp STAR  &kp AMPS  &trans
-    &trans    &trans     &trans    &trans     &trans     &trans     &trans     &trans    &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &trans    &trans    &trans    
-    &trans    &trans     &trans    &trans     &trans     &trans     &trans     &trans    &trans     &trans            &trans    &trans    &trans    &trans    
+    &trans    &kp GRAVE  &trans    &trans     &trans     &trans     &trans     &trans    &trans     &kp LEFT_BRACE    &kp RIGHT_BRACE      &trans       &trans     &trans    
+    &trans    &kp EXCL   &kp AT    &kp HASH   &kp DLLR   &kp PRCNT  &trans     &trans    &kp CARET  &kp LPAR          &kp RPAR             &kp STAR     &kp AMPS   &trans
+    &trans    &trans     &trans    &trans     &trans     &trans     &trans     &trans    &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp BLSH     &trans     &trans    
+    &trans    &trans     &trans    &trans     &trans     &trans     &trans     &trans    &trans     &trans            &trans               &trans       &trans     &trans    
             >;
          };
 
         layer_controls {
             bindings = <
-    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none    &kp C_PREV    &kp C_PLAY_PAUSE    &kp C_NEXT   &kp C_VOLUME_UP    
-    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none         &none               &none        &kp C_VOLUME_DOWN    
-    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none         &none               &none        &kp C_MUTE 
-    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none         &bt BT_CLR          &bt BT_PRV   &bt BT_NXT
+    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none       &kp C_PREV         &kp C_PLAY_PAUSE    &kp C_NEXT   &none    
+    &none    &none    &none    &none    &none    &none    &none    &none    &none    &kp C_MUTE  &kp C_VOLUME_UP    &none               &none        &none    
+    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none       &kp C_VOLUME_DOWN  &none               &none        &none
+    &none    &none    &none    &none    &none    &none    &none    &none    &none    &none       &none              &none               &none        &none 
             >;
          };
      };
