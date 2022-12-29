@@ -8,6 +8,5 @@ exposes: []
 features:
   - keys
 siblings:
-  - esper_ergox_central
   - esper_ergox_left
   - esper_ergox_right
