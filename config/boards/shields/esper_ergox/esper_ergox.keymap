@@ -37,7 +37,7 @@
             bindings = <
     &trans    &kp GRAVE  &trans    &trans     &trans     &trans     &trans     &trans    &trans     &kp LEFT_BRACE    &kp RIGHT_BRACE      &trans       &trans     &trans    
     &trans    &kp EXCL   &kp AT    &kp HASH   &kp DLLR   &kp PRCNT  &trans     &trans    &kp CARET  &kp LPAR          &kp RPAR             &kp STAR     &kp AMPS   &trans
-    &trans    &trans     &trans    &trans     &trans     &trans     &trans     &trans    &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp BLSH     &trans     &trans    
+    &trans    &trans     &trans    &trans     &trans     &trans     &trans     &trans    &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp BSLH     &trans     &trans    
     &trans    &trans     &trans    &trans     &trans     &trans     &trans     &trans    &trans     &trans            &trans               &trans       &trans     &trans    
             >;
          };
