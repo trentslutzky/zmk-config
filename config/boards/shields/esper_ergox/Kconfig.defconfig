@@ -1,9 +1,9 @@
 if SHIELD_ESPER_ERGOX_DONGLE
 
 config ZMK_KEYBOARD_NAME
-  default "Esper ErgoX"
+  default "Esper ErgoX Dongle"
 
-config ZMK_SPLIT_ROLE_CENTRAL
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
   default y
 
 config ZMK_USB
