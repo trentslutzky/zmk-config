@@ -19,3 +19,5 @@ include:
     shield: esper_ergox_left
   - board: nice_nano_v2
     shield: esper_ergox_right
+  - board: nice_nano_v2
+    shield: settings_reset
