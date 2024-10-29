@@ -1,6 +1,6 @@
 file_format: "1"
-id: esper_v3
-name: esper v3
+id: esper_v4
+name: esper v4
 type: shield
 url: https://github.com/trentslutzky/zmk-config
 requires: [pro_micro]
@@ -8,5 +8,6 @@ exposes: []
 features:
   - keys
 siblings:
-  - esper_v3_left
-  - esper_v3_right
+  - esper_v4_left
+  - esper_v4_right
+  - esper_v4_dongle
