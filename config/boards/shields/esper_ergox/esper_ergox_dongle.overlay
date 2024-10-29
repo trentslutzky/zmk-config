@@ -1,14 +1,5 @@
 #include "esper_ergox.dtsi"
 
-/*
-row-gpios
-    = <&pro_micro 1 GPIO_ACTIVE_HIGH>
-    , <&pro_micro 0 GPIO_ACTIVE_HIGH>
-    , <&pro_micro 2 GPIO_ACTIVE_HIGH>
-    , <&pro_micro 3 GPIO_ACTIVE_HIGH>
-    ;
- */
-
 // dummy cols/rows for dongle
 &kscan0 {
     col-gpios
