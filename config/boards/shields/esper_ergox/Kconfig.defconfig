@@ -16,4 +16,7 @@ if SHIELD_ESPER_ERGOX_LEFT || SHIELD_ESPER_ERGOX_RIGHT || SHIELD_ESPER_ERGOX_DON
 config ZMK_SPLIT
 	default y
 
+config ZMK_BLE
+	default y
+
 endif
