@@ -4,8 +4,6 @@
 
 nice_view_spi: &spi0 {
     cs-gpios = <&pro_micro 22 GPIO_ACTIVE_HIGH>;
-    mosi-gpios = <&pro_micro 17 GPIO_ACTIVE_HIGH>;
-    sck-gpios = <&pro_micro 20 GPIO_ACTIVE_HIGH>;
 };
 
 / {
