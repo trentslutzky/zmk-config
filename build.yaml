@@ -14,6 +14,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: esper_ergox_left
+    shield: esper_ergox_ulp_left
   - board: nice_nano_v2
-    shield: esper_ergox_right
+    shield: esper_ergox_ulp_right
