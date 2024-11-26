@@ -10,46 +10,48 @@
 
         default_layer {
             bindings = <
-    &none       &kp Q   &kp D   &kp R   &kp W   &kp B    &kp DEL     &kp PSCRN  &kp J      &kp F    &kp U      &kp P      &none        &none
-    &kp ESC     &kp A   &kp S   &kp H   &kp T   &kp G    &kp LMETA   &none      &kp Y      &kp N    &kp E      &kp O      &kp I        &kp SEMI
-    &none       &kp Z   &kp X   &kp M   &kp C   &kp V    &kp LSHIFT  &kp RET    &kp K      &kp L    &kp COMMA  &kp DOT    &kp FSLH     &none
-    &none       &none   &none   &mo 2   &mo 1   &kp BSPC &kp LCTRL   &kp TAB    &kp SPACE  &mo 3    &mo 4      &none      &none        &none
+
+        &none       &kp Q   &kp D     &kp R       &kp W      &kp B          &kp J    &kp F      &kp U      &kp P      &none     &none
+        &none       &kp A   &kp S     &kp H       &kp T      &kp G          &kp Y    &kp N      &kp E      &kp O      &kp I     &none
+        &kp ESC     &kp Z   &kp X     &kp M       &kp C      &kp V          &kp K    &kp L      &kp COMMA  &kp DOT    &kp FSLH  &kp SEMI
+        &mo 2       &mo 1   &kp BSPC  &kp LSHIFT  &kp LMETA  &kp LCTRL      &kp TAB  &kp LMETA  &kp RET    &kp SPACE  &mo 3     &mo 4
+
             >;
-         };
+        };
 
         layer_arrows {
             bindings = <
-    &trans    &trans    &trans        &trans     &trans        &trans    &trans    &trans    &trans    &kp HOME    &kp UP      &kp END     &trans    &trans
-    &trans    &trans    &kp LG(LBKT)  &trans     &kp LG(RBKT)  &trans    &trans    &trans    &trans    &kp LEFT    &kp DOWN    &kp RIGHT   &trans    &trans
-    &trans    &trans    &trans        &trans     &trans        &trans    &trans    &trans    &trans    &trans      &trans      &trans      &trans    &trans
-    &trans    &trans    &trans        &trans     &trans        &trans    &trans    &trans    &trans    &trans      &trans      &trans      &trans    &trans    
+    &trans    &trans    &trans        &trans     &trans        &trans      &trans    &kp HOME    &kp UP      &kp END     &trans    &trans
+    &trans    &trans    &kp LG(LBKT)  &trans     &kp LG(RBKT)  &trans      &trans    &kp LEFT    &kp DOWN    &kp RIGHT   &trans    &trans
+    &trans    &trans    &trans        &trans     &trans        &trans      &trans    &trans      &trans      &trans      &trans    &trans
+    &trans    &trans    &trans        &trans     &trans        &trans      &trans    &trans      &trans      &trans      &trans    &trans    
             >;
          };
 
         layer_num {
             bindings = <
-    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &kp EQUAL   &kp N7     &kp N8    &kp N9    &trans    &trans    
-    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &kp PLUS    &kp N4     &kp N5    &kp N6    &trans    &trans    
-    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &kp MINUS   &kp N1     &kp N2    &kp N3    &kp DOT   &trans    
-    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans      &kp N0     &kp N0    &trans    &trans    &trans    
+    &trans    &trans    &trans    &trans    &trans    &trans      &kp EQUAL   &kp N7     &kp N8    &kp N9    &trans    &trans    
+    &trans    &trans    &trans    &trans    &trans    &trans      &kp PLUS    &kp N4     &kp N5    &kp N6    &trans    &trans    
+    &trans    &trans    &trans    &trans    &trans    &trans      &kp MINUS   &kp N1     &kp N2    &kp N3    &kp DOT   &trans    
+    &trans    &trans    &trans    &trans    &trans    &trans      &trans      &kp N0     &kp N0    &trans    &trans    &trans    
             >;
          };
 
         layer_sym {
             bindings = <
-    &trans    &kp GRAVE  &trans    &trans     &trans     &trans     &trans     &trans    &trans     &kp LEFT_BRACE    &kp RIGHT_BRACE      &trans       &trans     &trans    
-    &trans    &kp EXCL   &kp AT    &kp HASH   &kp DLLR   &kp PRCNT  &trans     &trans    &kp CARET  &kp LPAR          &kp RPAR             &kp STAR     &kp AMPS   &trans
-    &trans    &trans     &trans    &trans     &trans     &trans     &trans     &trans    &kp UNDER  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp BSLH     &kp APOS   &trans    
-    &trans    &trans     &trans    &trans     &trans     &trans     &trans     &trans    &trans     &trans            &trans               &trans       &trans     &trans    
+    &trans    &kp GRAVE  &trans    &trans     &trans     &trans         &trans     &kp LEFT_BRACE    &kp RIGHT_BRACE      &trans       &trans     &trans    
+    &trans    &kp EXCL   &kp AT    &kp HASH   &kp DLLR   &kp PRCNT      &kp CARET  &kp LPAR          &kp RPAR             &kp STAR     &kp AMPS   &trans
+    &trans    &trans     &trans    &trans     &trans     &trans         &kp UNDER  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp BSLH     &kp APOS   &trans    
+    &trans    &trans     &trans    &trans     &trans     &trans         &trans     &trans            &trans               &trans       &trans     &trans    
             >;
          };
 
         layer_controls {
             bindings = <
-    &none    &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &none     &none    &none    &none    &none    &none       &kp C_PREV         &kp C_PLAY_PAUSE    &kp C_NEXT   &none    
-    &none    &none        &none        &none        &none     &none    &none    &none    &none    &kp C_MUTE  &kp C_VOLUME_UP    &none               &none        &none    
-    &none    &bt BT_CLR   &none        &none        &none     &none    &none    &none    &none    &none       &kp C_VOLUME_DOWN  &none               &none        &none
-    &none    &none        &none        &none        &none     &none    &none    &none    &none    &none       &none              &none               &none        &none 
+    &none    &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &none     &none        &none    &none       &kp C_PREV         &kp C_PLAY_PAUSE    &kp C_NEXT   &none    
+    &none    &none        &none        &none        &none     &none        &none    &kp C_MUTE  &kp C_VOLUME_UP    &none               &none        &none    
+    &none    &bt BT_CLR   &none        &none        &none     &none        &none    &none       &kp C_VOLUME_DOWN  &none               &none        &none
+    &none    &none        &none        &none        &none     &none        &none    &none       &none              &none               &none        &none 
             >;
          };
      };
