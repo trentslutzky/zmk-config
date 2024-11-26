@@ -1,14 +1,7 @@
-if SHIELD_ESPER_ERGOX_LEFT || SHIELD_ESPER_ERGOX_RIGHT || SHIELD_ESPER_ERGOX_DONGLE
+if SHIELD_ESPER_ERGOX_DONGLE
 
 config ZMK_USB
   default y
-
-config ZMK_BLE
-	default y
-
-endif
-
-if SHIELD_ESPER_ERGOX_DONGLE
 
 config ZMK_KEYBOARD_NAME
   default "Esper ErgoX ULP"
@@ -21,9 +14,6 @@ endif
 if SHIELD_ESPER_ERGOX_LEFT || SHIELD_ESPER_ERGOX_RIGHT
 
 config CONFIG_ZMK_SPLIT
-	default y
-
-config CONFIG_ZMK_SPLIT_BLE
 	default y
 
 endif
