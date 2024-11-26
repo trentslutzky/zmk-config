@@ -1,1 +1,22 @@
+if SHIELD_ESPER_ERGOX_DONGLE
 
+config ZMK_KEYBOARD_NAME
+	default "Esper ErgoX Dongle ULP"
+	
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
+	
+config ZMK_USB
+	default y
+
+endif
+
+if SHIELD_ESPER_ERGOX_LEFT || SHIELD_ESPER_ERGOX_RIGHT || SHIELD_ESPER_ERGOX_DONGLE
+
+config ZMK_SPLIT
+	default y
+
+config ZMK_BLE
+	default y
+
+endif
