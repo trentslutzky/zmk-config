@@ -1,8 +1,5 @@
 config SHIELD_ESPER_ERGOX_LEFT
 	def_bool $(shields_list_contains,esper_ergox_left)
 
-config SHIELD_ESPER_ERGOX_RIGHT
-	def_bool $(shields_list_contains,esper_ergox_right)
-
 config SHIELD_ESPER_ERGOX_DONGLE
 	def_bool $(shields_list_contains,esper_ergox_dongle)
